@@ -5,18 +5,22 @@ import { SafeAreaView, StyleSheet } from 'react-native';
 import Primeiro from './Components/Primeiro';
 import MixMax from './Components/MixMax';
 import Aleatorio from './Components/Aleatorio';
-import Titulo from './Components/Titulo';*/}
 import Botao from './Components/Botao';
+import Titulo from './Components/Titulo';*/}
+
+import Contador from './Components/Contador';
 
 
 export default function App() { 
   return (
     <SafeAreaView style={styles.container}>
+      <Contador inicial={100} passo={2}/>
+      <Contador/>
       
 
-      <Botao/>
       
       {/*<Titulo principal="Titulo" secundario="Subtitulo"/>
+      <Botao/>
       <Aleatorio min={1} max={60}/>
     <Aleatorio min={1} max={60}/>
     <Aleatorio min={1} max={60}/>
