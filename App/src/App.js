@@ -10,7 +10,7 @@ import Titulo from './Components/Titulo';*/}
 
 //import Contador from './Components/Contador';
 
-import Pai from './Components/direta/Pai'
+import Pai from './Components/Indireta/Pai'
 
 export default function App() { 
   return (
