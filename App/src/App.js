@@ -8,18 +8,19 @@ import Aleatorio from './Components/Aleatorio';
 import Botao from './Components/Botao';
 import Titulo from './Components/Titulo';*/}
 
-import Contador from './Components/Contador';
+//import Contador from './Components/Contador';
 
+import Pai from './Components/direta/Pai'
 
 export default function App() { 
   return (
     <SafeAreaView style={styles.container}>
-      <Contador inicial={100} passo={2}/>
-      <Contador/>
       
-
+      <Pai/>
       
       {/*<Titulo principal="Titulo" secundario="Subtitulo"/>
+      <Contador inicial={100} passo={2}/>
+      <Contador/>
       <Botao/>
       <Aleatorio min={1} max={60}/>
     <Aleatorio min={1} max={60}/>

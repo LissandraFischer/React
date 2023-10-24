@@ -11,8 +11,8 @@ export default ({inicial = 0, passo = 1}) =>{
 return(
     <>
         <Text style={estilo.fontG}> {numero} </Text>
-        <Button title="+" onPress={inc}/>
-        <Button title="-" onPress={dec} />
+        <Button color="red" title="+" onPress={inc}/>
+        <Button color="red" title="-" onPress={dec} />
     </>
 )
 }
