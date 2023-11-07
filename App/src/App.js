@@ -18,13 +18,15 @@ import UsuarioLogado from './Components/UsuarioLogado';
 //import ListaProdutosV2 from './Components/Produtos/ListaProdutosV2';
 //import DigiteSeuNome from './Components/DigiteSeuNome';
 //import Quadrado from './Components/Layout/Quadrado';
-import FlexboxV1 from './Components/Layout/FlexboxV1';
+//import FlexboxV1 from './Components/Layout/FlexboxV1';
+//import FlexboxV2 from './Components/Layout/FlexboxV2';
+import FlexboxV3 from './Components/Layout/FlexboxV3';
 
 export default function App() { 
   return (
     <SafeAreaView style={styles.container}>
 
-      <FlexboxV1/>
+      <FlexboxV3/>
 
 
 
