@@ -15,14 +15,22 @@ import Familia from './Components/relacao/Familia'
 import Membros from './Components/relacao/Membros'
 import UsuarioLogado from './Components/UsuarioLogado';
 //import ParImpar from './Components/ParImpar';*/}
-import ListaProdutosV2 from './Components/Produtos/ListaProdutosV2';
+//import ListaProdutosV2 from './Components/Produtos/ListaProdutosV2';
+//import DigiteSeuNome from './Components/DigiteSeuNome';
+//import Quadrado from './Components/Layout/Quadrado';
+import FlexboxV1 from './Components/Layout/FlexboxV1';
 
 export default function App() { 
   return (
     <SafeAreaView style={styles.container}>
-      
-      <ListaProdutosV2/>
+
+      <FlexboxV1/>
+
+
+
       {/*<Titulo principal="Titulo" secundario="Subtitulo"/>
+      <DigiteSeuNome/>
+      <ListaProdutosV2/>
       <Familia>
       <UsuarioLogado usuario={{nome: "Fernanda", email:"fe@gmail.com"}}/>
       <UsuarioLogado usuario={{nome: "Luisa", }}/>
