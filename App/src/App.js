@@ -20,17 +20,20 @@ import UsuarioLogado from './Components/UsuarioLogado';
 //import Quadrado from './Components/Layout/Quadrado';
 //import FlexboxV1 from './Components/Layout/FlexboxV1';
 //import FlexboxV2 from './Components/Layout/FlexboxV2';
-import FlexboxV3 from './Components/Layout/FlexboxV3';
+//import FlexboxV3 from './Components/Layout/FlexboxV3';
+//import FlexboxV4 from './Components/Layout/FlexboxV4';
+
+import Mega from './Components/Mega/mega';
 
 export default function App() { 
   return (
     <SafeAreaView style={styles.container}>
 
-      <FlexboxV3/>
-
-
+      <Mega qtdeNumero={6}/>
 
       {/*<Titulo principal="Titulo" secundario="Subtitulo"/>
+      <FlexboxV4/>  
+      <FlexboxV3/>
       <DigiteSeuNome/>
       <ListaProdutosV2/>
       <Familia>
